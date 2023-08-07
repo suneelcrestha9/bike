@@ -1,0 +1,335 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 786px;
+    background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo{
+    padding: 1rem;
+    background-color: #ff7109;
+    margin-left: 3rem;
+}
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navlink{
+    margin: 1.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10rem;
+}
+.navlink a{
+    text-decoration: none;
+    color: white;
+}
+.navlink:hover{
+    color: black;
+    background-color: #ff7109;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    margin-right: 5rem;
+}
+.icon{
+    margin: 1.5rem 0.8rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10rem;
+}
+.icon:hover{
+    color: black;
+    background-color: #ff7109;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.middle-containt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.helmet-image{
+    max-width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.name h1{
+    color: white;
+    font-size: 15rem;
+    top: 16rem;
+    position: relative;
+}
+.next-page a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.next-page button{
+    position: absolute;
+    padding: 1rem 7rem;
+    background-color: rgba(33, 33, 33, 0.2);
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10rem;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 0rem ;
+
+}
+.next-page button:hover {
+    background-color: #ff7109;
+    transform: scaleX(10.5rem);
+    box-shadow:0 0 30px rgba(223, 118, 25,1);
+
+}
+        
+
+
+/*second page*/
+.aarko {
+    width: 100%;
+    height: 804px;
+    background-image: url(./image/DreamShaper_v7_make_a_4_wheeler_bike_which_looks_like_a_photo_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aarko img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.side-content {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 10% 50% 30%;
+    max-height: 80%;
+}
+
+.side-links {
+    margin: 7rem 0rem 0rem 1.3rem;
+    max-height: 80%;
+    position: sticky;
+}
+
+.sidelink a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidelink a:hover {
+    color: #ff7109;
+}
+
+.sidelink {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    transform: rotate(180deg);
+    font-size: 1.3rem;
+    margin: 5rem 0.5rem;
+    padding: 0rem 1rem;
+
+}
+
+.section-title {
+    margin: 5rem 0rem;
+    color: white;
+}
+
+.section-title h1 {
+    font-size: 12rem;
+    margin-bottom: 3rem;
+}
+
+.section-title h2 {
+    font-size: 5rem;
+}
+
+.section-title p {
+    font-size: 1.5rem;
+    font: 700;
+    color: #ff7109;
+    margin-bottom: 2rem;
+}
+
+.right-content {
+    display: grid;
+    align-content: space-evenly;
+    justify-content: end;
+    max-height: 50%;
+    margin: 0rem -3rem;
+    margin-top: 10rem;
+
+}
+
+.right-navlink a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    padding: 10rem 0rem;
+}
+
+.right-navlink a:hover {
+    color: #ff7109;
+}
+
+.sun h2 {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    transform: rotate(180deg);
+}
+
+.bottom-setion {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    color: white;
+    
+    background-color: rgba(33, 33, 33, 0.2);
+}
+
+.video {
+    display: grid;
+    grid-template-columns: auto 40%;
+    align-items: center;
+}
+
+.video h3 {
+    max-width: 10rem;
+    padding: 0rem 1rem;
+}
+
+.bottom-setion .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-setion .about-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+video {
+    max-width: 98%;
+    height: auto;
+}
+
+
+
+
+
+
+
+/*page three*/
+.page-three {
+    background-image: url(./image/three-two.jpg);
+    width: 100%;
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-three image {
+    width: 100%;
+    height: auto;
+}
+.three-content{
+    color: white;
+    display: grid;
+    max-width: 50%;
+    grid-template-columns: 50% auto;
+    gap: 2rem;
+}
+.aside-three{
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 4rem;
+    font-size: 2rem;
+    padding-top: 14rem;
+    padding-left: 1.5rem;
+
+}
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.types  a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 2rem;
+}
+.types li{
+    padding: 0.5rem;
+    list-style: none;
+    margin: 1rem 0rem;
+}
+.about-three{
+    padding-top: 8rem;
+    font: bold;
+}
+.about-three h1{
+    font-size: 10rem;
+    margin-bottom: 3rem;
+    
+}
+.about-three h2{
+    font-size: 3rem;
+}
+.about-three p{
+    font-size: 1.5rem;
+    color: #ff7109;
+    margin-bottom: 3rem;
+}
+.types li a::after{
+    width: 0;
+    height: 0.2rem;
+    background-color: #ff7109;
+    display: flex;
+    transition: 0.3s;
+    content: '';
+    border-radius: 10rem;
+}
+.types li a:hover:after {
+    width: 100%;
+}
+
+.types a:hover{
+    color: #ff7109;
+}
