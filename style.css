@@ -1,18 +1,23 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-.container{
+
+.container {
     width: 100%;
     height: 786px;
     background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,77 +28,84 @@ html{
     justify-content: space-between;
 
 }
-.logo{
+
+.logo {
     padding: 1rem;
     background-color: #ff7109;
     margin-left: 3rem;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
     color: inherit;
 }
-.navlinks{
+
+.navlinks {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.navlink{
+
+.navlink {
     margin: 1.5rem 1rem;
     font-size: 1rem;
     font-weight: 500;
     padding: 0.5rem 0.9rem;
     border-radius: 10rem;
 }
-.navlink a{
+
+.navlink a {
     text-decoration: none;
     color: white;
 }
-.navlink:hover{
+
+.navlink:hover {
+    color: black;
+    background-color: #ff7109;
+    transition: 0.s;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.icon {
+    margin: 1.5rem 0.8rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10rem;
+}
+
+.icon:hover {
     color: black;
     background-color: #ff7109;
     transition: 0.1s;
     cursor: pointer;
 }
 
-.icons{
-    display: flex;
-    margin-right: 5rem;
-}
-.icon{
-    margin: 1.5rem 0.8rem;
-    padding: 0.5rem 0.9rem;
-    border-radius: 10rem;
-}
-.icon:hover{
-    color: black;
-    background-color: #ff7109;
-    transition: 0.1s;
-    cursor: pointer;
-}
-.middle-containt{
+.middle-containt {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.helmet-image{
+
+.helmet-image {
     max-width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.name h1{
+
+.name h1 {
     color: white;
     font-size: 15rem;
     top: 16rem;
     position: relative;
 }
-.next-page a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
-.next-page button{
+
+.next-page button {
     position: absolute;
     padding: 1rem 7rem;
     background-color: rgba(33, 33, 33, 0.2);
@@ -102,17 +114,30 @@ html{
     border-radius: 10rem;
     top: 85%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    border: 0rem ;
+    transform: translate(-50%, -50%);
+    border: 0rem;
 
 }
+
 .next-page button:hover {
     background-color: #ff7109;
     transform: scaleX(10.5rem);
-    box-shadow:0 0 30px rgba(223, 118, 25,1);
+    box-shadow: 0 0 30px rgba(223, 118, 25, 1);
 
 }
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*second page*/
@@ -122,6 +147,8 @@ html{
     background-image: url(./image/DreamShaper_v7_make_a_4_wheeler_bike_which_looks_like_a_photo_0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
 .aarko img {
@@ -216,7 +243,7 @@ html{
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
     color: white;
-    
+
     background-color: rgba(33, 33, 33, 0.2);
 }
 
@@ -256,7 +283,7 @@ video {
 
 /*page three*/
 .page-three {
-    background-image: url(./image/three-two.jpg);
+    background-image: url(./image/page3.jpg);
     width: 100%;
     height: 786px;
     background-repeat: no-repeat;
@@ -267,57 +294,62 @@ video {
     width: 100%;
     height: auto;
 }
-.three-content{
+
+.three-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: white;
-    display: grid;
-    max-width: 50%;
-    grid-template-columns: 50% auto;
-    gap: 2rem;
-}
-.aside-three{
-    font-size: 1.3rem;
-    display: grid;
-    grid-template-rows: auto;
-    gap: 4rem;
-    font-size: 2rem;
-    padding-top: 14rem;
-    padding-left: 1.5rem;
 
 }
-.types{
+
+.aside-three {
+    margin: 5rem 0rem;
+    font-size: 1.5rem;
+    padding: 10rem 0rem 0rem 2rem;
+
+}
+
+.aside-three h2 {
+    color: #d2921c;
+}
+
+.types {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+
 }
-.types  a{
+
+.types a {
     text-decoration: none;
-    color:inherit;
-    font-size: 2rem;
+    color: inherit;
+    font-size: 1.3rem;
 }
-.types li{
+
+.types li {
     padding: 0.5rem;
     list-style: none;
     margin: 1rem 0rem;
 }
-.about-three{
-    padding-top: 8rem;
-    font: bold;
+
+.about-three {
+    margin: 12rem 5rem;
+    color: #d2921c;
 }
-.about-three h1{
-    font-size: 10rem;
-    margin-bottom: 3rem;
-    
+
+.about-three h1 {
+    font-size: 12rem;
 }
-.about-three h2{
-    font-size: 3rem;
-}
-.about-three p{
+
+.about-three p {
     font-size: 1.5rem;
-    color: #ff7109;
-    margin-bottom: 3rem;
+    font: 700;
+    color: white;
 }
-.types li a::after{
+
+.types li a::after {
     width: 0;
     height: 0.2rem;
     background-color: #ff7109;
@@ -326,10 +358,11 @@ video {
     content: '';
     border-radius: 10rem;
 }
+
 .types li a:hover:after {
     width: 100%;
 }
 
-.types a:hover{
+.types a:hover {
     color: #ff7109;
 }
