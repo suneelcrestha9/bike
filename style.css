@@ -13,8 +13,6 @@ html {
     background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
 }
 
 .navbar {
@@ -26,7 +24,6 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -44,6 +41,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .navlink {
@@ -52,6 +50,7 @@ html {
     font-weight: 500;
     padding: 0.5rem 0.9rem;
     border-radius: 10rem;
+    background-color: rgba(37, 37, 37, 0.4);
 }
 
 .navlink a {
@@ -75,6 +74,7 @@ html {
     margin: 1.5rem 0.8rem;
     padding: 0.5rem 0.9rem;
     border-radius: 10rem;
+    background-color: rgba(37, 37, 37, 0.4);
 }
 
 .icon:hover {
@@ -91,7 +91,7 @@ html {
 }
 
 .helmet-image {
-    max-width: 40%;
+    max-width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,35 +100,19 @@ html {
 
 .name h1 {
     color: white;
-    font-size: 15rem;
+    font-size: 16rem;
     top: 16rem;
     position: relative;
 }
 
-.next-page button {
-    position: absolute;
-    padding: 1rem 7rem;
-    background-color: rgba(33, 33, 33, 0.2);
-    text-align: center;
-    font-size: 1.5rem;
-    border-radius: 10rem;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 0rem;
 
+
+
+@media (max-width=376px) {
+     .name h1{
+        font-size: 1rem;
+    }
 }
-
-.next-page button:hover {
-    background-color: #ff7109;
-    transform: scaleX(10.5rem);
-    box-shadow: 0 0 30px rgba(223, 118, 25, 1);
-
-}
-
-
-
-
 
 
 
@@ -196,12 +180,12 @@ html {
 }
 
 .section-title h1 {
-    font-size: 12rem;
+    font-size: 12.1vw;
     margin-bottom: 3rem;
 }
 
 .section-title h2 {
-    font-size: 5rem;
+    font-size: 5.1vw;
 }
 
 .section-title p {
@@ -218,6 +202,7 @@ html {
     max-height: 50%;
     margin: 0rem -3rem;
     margin-top: 10rem;
+    
 
 }
 
@@ -245,6 +230,7 @@ html {
     color: white;
 
     background-color: rgba(33, 33, 33, 0.2);
+    
 }
 
 .video {
@@ -337,6 +323,7 @@ video {
 .about-three {
     margin: 12rem 5rem;
     color: #d2921c;
+    
 }
 
 .about-three h1 {
@@ -365,4 +352,95 @@ video {
 
 .types a:hover {
     color: #ff7109;
+}
+
+
+
+
+
+/*page four*/
+.four{
+    background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
+    width: 100%;
+    height: 785px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.content-four{
+    color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    
+}
+.equipment-title{
+
+    margin-top: 10rem;
+    max-height: 25rem;
+
+}
+.equipment{
+    font-size: 1.5rem;
+    margin: 3rem 0rem 0rem 3rem;
+}
+.helmet-types {
+    font-size: 1.5rem;
+    margin: 3rem 0rem 0rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.helmet-types h3{
+    padding: 0.5rem 0rem;
+}
+.page{
+    margin: 10rem 0rem;
+    max-width: 25rem;
+
+}
+.page h1{
+    font-size: 13rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.page h4{
+    font-size: 1.7rem;
+}
+.helmet-group{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    margin-top: 15rem;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.helmet{
+    width: 80%;
+    height: 15rem;
+    border-radius: 1.5rem;
+    background-color: rgba(37, 37, 37, 0.3); 
+}
+.helmet img{
+    position: absolute;
+    max-width: 28%;
+    top: -3rem;
+    z-index: 1;
+}
+
+.helmet h2{
+    margin: 7rem 0rem 2rem 0.5rem;
+}
+.helmet p{
+    color: #ff7109;
+    padding: 0.2rem 0rem 0.5rem 0.5rem;
+}
+.helmet h3{
+    margin-left: 0.5rem;
+}
+.footer-four{
+    width: 100%;
+    height: 7rem;
+    background-color: rgba(37, 37, 37, 0.3);
 }
