@@ -1,6 +1,21 @@
 html {
     scroll-behavior: smooth;
 }
+.burger{
+    width: 1.5rem;
+    position: absolute;
+    top: 1rem ;
+    right: 1rem;
+    display: none;
+}
+.burger div {
+    width: 100%;
+    background-color: orange;
+    content: "";
+    margin: 0.3rem 0rem;
+    height: 0.2rem;
+    border-radius: 10rem;
+}
 
 * {
     padding: 0;
@@ -9,14 +24,14 @@ html {
 
 .container {
     width: 100%;
-    height: 786px;
+    height: 100vh;
     background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .navbar {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -108,15 +123,6 @@ html {
 
 
 
-@media (max-width=376px) {
-     .name h1{
-        font-size: 1rem;
-    }
-}
-
-
-
-
 
 
 
@@ -127,18 +133,14 @@ html {
 /*second page*/
 .aarko {
     width: 100%;
-    height: 804px;
+    height: 100vhs;
     background-image: url(./image/DreamShaper_v7_make_a_4_wheeler_bike_which_looks_like_a_photo_0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
-
 .aarko img {
     width: 100%;
     height: 100%;
-
 }
 
 .side-content {
@@ -151,7 +153,6 @@ html {
 .side-links {
     margin: 7rem 0rem 0rem 1.3rem;
     max-height: 80%;
-    position: sticky;
 }
 
 .sidelink a {
@@ -177,10 +178,11 @@ html {
 .section-title {
     margin: 5rem 0rem;
     color: white;
+    
 }
 
 .section-title h1 {
-    font-size: 12.1vw;
+    font-size: 10rem;
     margin-bottom: 3rem;
 }
 
@@ -271,7 +273,7 @@ video {
 .page-three {
     background-image: url(./image/page3.jpg);
     width: 100%;
-    height: 786px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -362,7 +364,7 @@ video {
 .four{
     background-image: url(./image/DreamShaper_v7_make_it_more_darker_and_smokes_1\ \(1\).jpg);
     width: 100%;
-    height: 785px;
+    height: 100vh;
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -439,8 +441,384 @@ video {
 .helmet h3{
     margin-left: 0.5rem;
 }
-.footer-four{
-    width: 100%;
-    height: 7rem;
-    background-color: rgba(37, 37, 37, 0.3);
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 475px) {
+            .navbar {
+                max-width: 100%;
+            }
+    
+            .logo {
+                max-width: 70%;
+                padding: 0rem;
+               
+            }
+            .burger{
+                display: block;
+                cursor: pointer;
+            }
+            .navlinks {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 2rem;
+            }
+            .icons{
+                display: none;
+            }
+    
+            .name h1 {
+                font-size: 4.5rem;
+            }
+    
+            .helmet-image {
+                margin-top: -1.5rem;
+                max-width: 18%;
+            }
+    
+    
+    
+    
+            /* page two */
+
+            .section-title h1 {
+                font-size: 3rem;
+                margin-top: 6.5rem;
+                margin-left: 3rem;
+            }
+
+            .section-title p {
+                margin-left: 3rem;
+                margin-top: 5rem;
+                margin-bottom: 4rem;
+            }
+            .sidelink{
+                font-size: 1.2rem;
+            }
+            .video{
+                display: none;
+            }
+            .section-title h2 {
+                font-size: 5.1vw;
+                margin-left: 3rem;
+                margin-top: 3rem;
+            }
+            .right-navlink a {
+                margin-right: 5rem;
+
+            }
+            .about-three {
+                margin: 12rem 5rem;
+                color: rgb(247, 247, 247);
+    
+            }
+    
+            .about-three p {
+                font-size: 1.5rem;
+                font: 700;
+                color: rgb(240, 240, 240);
+            }
+    
+
+            .about-three p {
+                font-size: 1.5rem;
+                margin-left: 3rem;
+            }
+            .right-content{
+                max-width: 1rem;
+                margin-left: 10rem;
+            }
+            .right-content>*{
+
+                margin-right: 1rem;
+                max-width: 2rem;
+            }
+            /* page four */
+    
+
+            /* .content-four{
+                display: grid;
+                grid-template-columns: 100%;
+                
+            } */
+
+            .equipment {
+                font-size: 1rem;
+                margin-left: 7rem;
+                display: flex;
+                position: relative;
+                gap: 1rem;
+                top: -12rem;
+            }
+            .page h1 {
+                font-size: 7rem;
+                margin-top: 1rem;
+                position: relative;
+                top: 5rem;
+                left: -2.5rem;
+                display: none;
+            }
+            .helmet-group{
+                position: relative;
+                top: -rem;
+                left: -5rem;
+                display: flex;
+                flex-direction: column;
+                top: -6rem;
+            }
+            .helmet-types {
+                font-size: 1rem;
+                display: none;
+            }
+    
+            .page h4 {
+                font-size: 1rem;
+                display: none;
+            }
+    
+            .helmet-group {
+                gap: 0.5rem;
+                margin-top: 15rem;
+                margin-left: 2.8rem;
+            }
+    
+            .helmet {
+                width: 65%;
+                height: 11rem;
+            }
+    
+            .helmet img {
+                max-width: 20%;
+                top: -1.5rem;
+            }
+    
+            .helmet h2 {
+                font-size: 1rem;
+                margin: 2rem 0rem 2rem 0.5rem;
+            }
+    
+            .helmet p {
+                color: #ff7109;
+                padding: 0.2rem 0rem 0.5rem 0.5rem;
+            }
+    
+            .helmet h3 {
+                margin-left: 0.5rem;
+            }
+            .helmet img{
+                max-width: 58%;
+                top: -5rem;
+                z-index: 1;
+            }
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+            .navbar {
+                max-width: 100%;
+            }
+    
+            .logo {
+                max-width: 90%;
+            }
+    
+            .navlink {
+                font-size: 0.7rem;
+            }
+    
+            .name h1 {
+                font-size: 8rem;
+            }
+    
+            .helmet-image {
+                margin-top: 4rem;
+                max-width: 18%;
+            }
+    
+    
+    
+    
+            /* page two */
+
+            .section-title h1 {
+                font-size: 6rem;
+                margin-top: 6rem;
+                margin-left: 2rem;
+            }
+            .about-three p {
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+            .section-title p {
+                margin-left: 2rem;
+            }
+            .section-title h2 {
+                font-size: 5.1vw;
+                margin-left: 2rem;
+            }
+            .about-three {
+                margin: 12rem 5rem;
+                color: rgb(247, 247, 247);
+    
+            }
+    
+            .about-three p {
+                font-size: 1.5rem;
+                font: 700;
+                color: rgb(240, 240, 240);
+            }
+    
+
+
+            /* page four */
+    
+            .equipment {
+                font-size: 0.7rem;
+            }
+    
+            .page h1 {
+                font-size: 7rem;
+                margin-top: 1rem;
+            }
+            .helmet-types {
+                font-size: 1rem;
+            }
+    
+            .page h4 {
+                font-size: 1rem;
+            }
+    
+            .helmet-group {
+                gap: 0.5rem;
+                margin-top: 15rem;
+            }
+    
+            .helmet {
+                width: 65%;
+                height: 11rem;
+            }
+    
+            .helmet img {
+                max-width: 20%;
+                top: -1.5rem;
+            }
+    
+            .helmet h2 {
+                font-size: 1rem;
+                margin: 2rem 0rem 2rem 0.5rem;
+            }
+    
+            .helmet p {
+                color: #ff7109;
+                padding: 0.2rem 0rem 0.5rem 0.5rem;
+            }
+    
+            .helmet h3 {
+                margin-left: 0.5rem;
+            }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1020px) {
+    
+        .navbar {
+            max-width: 100%;
+        }
+    
+        .logo {
+
+        }
+    
+        .navlink {
+            font-size: 0.9rem;
+        }
+    
+        .name h1{
+            font-size: 10rem;
+        }
+    
+        .helmet-image {
+            max-width: 17%;
+        }
+
+
+
+
+        /* page two */
+        
+                .side-content {
+                    max-height: 70%;
+                }        
+                .section-title h1 {
+                    font-size: 7rem;
+                    margin-top: 9rem;
+                }
+                .about-three {
+                    margin: 12rem 5rem;
+                    color: rgb(247, 247, 247);
+        
+                }
+                .about-three p {
+                    font-size: 1.5rem;
+                    font: 700;
+                    color: rgb(240, 240, 240);
+                }
+
+                /* page four */
+    
+        .equipment {
+            font-size: 1rem;
+        }
+
+        .page h1{
+            font-size: 10rem;
+            margin-top: 1rem;
+        }
+        .page h4{
+            font-size: 1.3rem;
+        }
+        
+        .helmet-group {
+            gap: 0.9rem;
+            margin-top: 15rem;
+        }
+        .helmet {
+            width: 75%;
+            height: 13rem;
+        }
+        .helmet img {
+            max-width: 25%;
+            top: -2rem;
+        }
+        .helmet h2 {
+            margin: 3rem 0rem 2rem 0.5rem;
+        }
+        .helmet p {
+            color: #ff7109;
+            padding: 0.2rem 0rem 0.5rem 0.5rem;
+        }
+    
+        .helmet h3 {
+            margin-left: 0.5rem;
+        }
+}
+@media only screen and (max-width: 2470px) {
+.helmet h2 {
+        margin: 6rem 0rem 2rem 0.5rem;
+    }
+    
 }
